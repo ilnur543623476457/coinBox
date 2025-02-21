@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('./money.css');
+@import url('./coin_farm.css');
+@import url('./bottom_menu.css');
+@import url('./account-center.css');
+@import url('./game-center.css');
+
+
+
+
+.gravitas-one-regular {
+    font-family: "Gravitas One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+:root{
+    --color_text: #ebebeb;
+
+}
+
+body{
+    margin: 0;
+    padding: 0%;
+    overflow: hidden;
+    font-family: Gravitas One, serif;
+    font-style: normal;
+    -ms-overflow-style: none;  /* IE 10+ */
+    scrollbar-width: none; /* Firefox */
+}
+
+::-webkit-scrollbar { /* chrome based */
+    width: 0px;  /* ширина scrollbar'a */
+    background: transparent;  /* опционально */
+}
+
+.main_window{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+
+.back_img{
+    position: absolute;
+    width: 140%;
+    left: -85px;
+    top: -30px;
+}
+
+
+.off_win{
+    display: none;
+}
+
+.on_win{
+    display: block;
+}
+
+.menu_but{
+    filter: invert(0.7);
+}
+
+.pass{
+    position: relative;
+    height: 20px;
+}
